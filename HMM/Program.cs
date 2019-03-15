@@ -18,31 +18,42 @@ namespace HMM
 
             rob.printPriorMap();
             rob.sensorUpdate('-', '-', '-', '-');
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
             rob.motionUpdate("north");
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
-           
+
             rob.sensorUpdate('-', '-', '-', '-');
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
             rob.motionUpdate("north");
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
 
             rob.sensorUpdate('-', '-', 'o', '-');
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
             rob.motionUpdate("north");
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
 
             rob.sensorUpdate('-', '-', '-', '-');
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
             rob.motionUpdate("east");
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
 
             rob.sensorUpdate('-', '-', 'o', 'o');
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
             rob.motionUpdate("north");
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
 
             rob.sensorUpdate('-', '-', 'o', '-');
+            Console.WriteLine("jquejada & nlenze");
             rob.printMap();
 
         }
